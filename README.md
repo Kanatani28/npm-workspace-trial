@@ -19,7 +19,7 @@
 ```
 ❯ cd packages/schemas
 ❯ mkdir @types
-❯ vi index.d.ts
+❯ vi index.d.ts // HelloResponse
 ```
 
 ### server
@@ -28,4 +28,13 @@
 ❯ pwd
 /path_to_directory/npm-workspace-trial
 ❯ npm install -w packages/server --save fastify fastify-cors // add fastify
+❯ vi packages/server/src/index.ts
+```
+
+### front
+
+```
+❯ pwd
+/path_to_directory/npm-workspace-trial
+❯ npm install -w packages/front --save axios // add axios
 ```
