@@ -12,6 +12,7 @@
 ❯ npm init -w packages/server
 ❯ npm init -w packages/schemas
 ❯ npx create-react-app packages/front --template typescript
+❯ vi package.json  // "workspaces": ["packages/*"]
 ```
 
 ### schemas
